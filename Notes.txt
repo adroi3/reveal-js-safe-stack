@@ -15,3 +15,6 @@
             TODO
         - ChatHub
             TODO
+        - applicationhost.config zeigen
+- Client
+    TODO
