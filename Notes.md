@@ -23,6 +23,7 @@
 ### Client
 - ChatViewModel
     - OnInitialize
+        - SignalR-Teil wird noch in .NET Standard Projekt ausgelagert
         - _connection.On
             - ChatMessageExtensions
     - ChangeGroup
