@@ -17,9 +17,9 @@
 			- Hub wird hinzugefügt
     - ChatHub
         - Erfüllt die .NET Core API
-        - Kurz Mehtoden druchgehen
+        - Kurz Mehtoden durchgehen
     - applicationhost.config zeigen
-		- "C:\Dev\Git\Mafia-project\AspMafiaServerSolution\.vs\config\applicationhost.config" öffnen
+		- "C:\Dev\Git\Mafia-project\AspMafiaServerSolution\\.vs\config\applicationhost.config" öffnen
 		- Nach 127.0.0.1 suchen
 ### Client
 - ChatViewModel
