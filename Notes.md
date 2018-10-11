@@ -1,9 +1,10 @@
-### Vorbereitung
+## Vorbereitung
 - Schauen, ob Präsentation noch da ist
-    - Server starten
-    - my_device über Device Manager starten und App öffnen
-    - my_device_1 über Debugger starten
-    - Emulatoren verstecken
+- Server starten
+- my_device über Device Manager starten und App öffnen
+- my_device_1 über Debugger starten
+- Emulatoren verstecken
+## Code zeigen
 ### Server
 - MafiaShared
     - .NET Standard Library
