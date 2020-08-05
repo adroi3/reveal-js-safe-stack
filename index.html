@@ -55,10 +55,10 @@
 				<section>
 					<ul>
 						<li>A cross-platform set of components for creating web applications in F#</li>
+						<li>Includes everything from the server up to the client</li>
 						<li>Stands for: Saturn Azure Fable Elmish</li>
 						<li>Components can be replaced</li>
-						<li>Includes everything from the server up to the client</li>
-						<li>Dotnet cli template exists</li>
+						<li>Dotnet CLI template exists</li>
 					</ul>
 					<img src="images/overview-safe-stack.png" />
 				</section>
@@ -97,14 +97,66 @@
 				<section>
 					<ul>
 						<li>Used for creating UIs</li>
-						<li>SAFE uses Elmish React</li>
+						<li>SAFE uses the Elmish React module</li>
 						<li>Uses the Model-View-Update pattern</li>
 						<img src="images/elmish-overview.png" />
 					</ul>
 				</section>
 			</section>
 			<section>
+				<section>
+					<h2>Model-View-Update pattern</h2>
+				</section>
+				<section>
+					<ul>
+						<li>Model</li>
+						<ul>
+							<li>State of the program</li>
+							<li>Is passed to the Update/view function</li>
+						</ul>
+						<li>Program</li>
+						<ul>
+							<li>Displays the data and has functionality in it (view/update function etc.)</li>
+							<li>Similar to a ViewModel + View</li>
+						</ul>
+						<li>Init function</li>
+						<ul>
+							<li>Starting point of a program</li>
+						</ul>
+					</ul>
+				</section>
+				<section>
+					<ul>
+						<li>Update function</li>
+						<ul>
+							<li>Changing the Model</li>
+							<li>No mutations only creates an updated version of the Model</li>
+						</ul>
+						<li>View function</li>
+						<ul>
+							<li>Describes the UI</li>
+						</ul>
+						<li>Command</li>
+						<ul>
+							<li>Fetches data from the server, writing data to the database etc.</li>
+							<li>Only option to cause side-effects</li>
+						</ul>
+						<li>Message</li>
+						<ul>
+							<li>Is used for determination of what to do in the update function</li>
+						</ul>
+					</ul>
+				</section>
+			</section>
+			<section>
 				<h2>A code example</h2>
+			</section>
+			<section>
+				<h2>Links</h2>
+				<ul>
+					<li><a href="https://safe-stack.github.io">SAFE Stack website</a></li>
+					<li><a href="https://thomasbandt.com/model-view-update">Model-View-Update pattern</a></li>
+				</ul>
 			</section>
 		</div>
 	</div>
