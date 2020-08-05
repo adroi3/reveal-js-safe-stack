@@ -42,7 +42,7 @@
 				<section>
 					<ul>
 						<li>What is the SAFE Stack?</li>
-						<li>Details about the parts</li>
+						<li>Details about the components</li>
 						<li>Model-View-Update pattern</li>
 						<li>A code example</li>
 					</ul>
@@ -50,48 +50,56 @@
 			</section>
 			<section>
 				<section>
-					<h2>What is Xamarin.Forms?</h2>
-					<img src="images/xamarin-on-multiple-devices.png" height="250" width="400" />
+					<h2>What is the SAFE Stack?</h2>
 				</section>
 				<section>
 					<ul>
-						<li>A cross-platform UI toolkit for Android, iOS, Windows Phone and UWP</li>
-						<li>Development can be done with Visual Studio or Rider</li>
+						<li>A cross-platform set of components for creating web applications in F#</li>
+						<li>Stands for: Saturn Azure Fable Elmish</li>
+						<li>Components can be replaced</li>
+						<li>Includes everything from the server up to the client</li>
+						<li>Dotnet cli template exists</li>
 					</ul>
-				</section>
-				<section>
-					<ul>
-						<li>Standard programming language is C#</li>
-						<li>You can use XAML and MVVM</li>
-						<li>For platform specific projects use Xamarin.Android etc.</li>
-					</ul>
-
-					<img src="images/xamarin-overview.png" height="250" width="400" style="margin-top: 50px; float: left;" />
+					<img src="images/overview-safe-stack.png" />
 				</section>
 			</section>
 			<section>
 				<section>
-					<h2>Problems when integrating SignalR</h2>
+					<h2>Saturn</h2>
 				</section>
 				<section>
 					<ul>
-						<li>Only few information available about it</li>
-						<li>Use the right client package</li>
-						<li>Connect to your local IIS Express</li>
+						<li>Is a layer of abstraction on top of Giraffe</li>
+						<ul>
+							<li>Framework for creating ASP.NET Core web applications in F#</li>
+						</ul>
+						<li>Adds for example the possibility to use authentication</li>
+					</ul>
+					<img src="images/saturn-overview.png" height="300" width="300" />
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Fable</h2>
+				</section>
+				<section>
+					<ul>
+						<li>F# to JavaScript compiler</li>
+						<li>Designed to produce readable and standard JavaScript code</li>
+						<li>Enables access to JavaScript libraries</li>
 					</ul>
 				</section>
+			</section>
+			<section>
 				<section>
-					<h3>Localhost solution for Android</h3>
-
+					<h2>Elmish/Elmish React</h2>
+				</section>
+				<section>
 					<ul>
-						<li>
-							<a href="https://developer.android.com/studio/run/emulator-networking">
-								Use 10.0.2.2 as the target IP
-							</a>
-						</li>
-						<li>
-							Setup the IIS Express to listen on the IP 127.0.0.1
-						</li>
+						<li>Used for creating UIs</li>
+						<li>SAFE uses Elmish React</li>
+						<li>Uses the Model-View-Update pattern</li>
+						<img src="images/elmish-overview.png" />
 					</ul>
 				</section>
 			</section>
